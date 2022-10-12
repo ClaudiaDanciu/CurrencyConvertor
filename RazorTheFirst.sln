@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorTheFirst", "RazorTheFirst\RazorTheFirst.csproj", "{8412C298-1F9F-42B5-9235-C3ABEBBB8A7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C603B276-2F38-45E6-9B0B-CCF3EB70E324}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8412C298-1F9F-42B5-9235-C3ABEBBB8A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8412C298-1F9F-42B5-9235-C3ABEBBB8A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8412C298-1F9F-42B5-9235-C3ABEBBB8A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8412C298-1F9F-42B5-9235-C3ABEBBB8A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EEC564F-40E6-4B98-806E-F3018DDA801C}
+	EndGlobalSection
+EndGlobal

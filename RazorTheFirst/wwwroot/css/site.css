@@ -1,0 +1,53 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+nav {
+    background-color: #000000 !important;
+    color: #ffffff;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+
+.submit {
+    background-color: deepskyblue;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 12px;
+    border: 2px deepskyblue;
+    box-shadow: 4px white;
+    width: 227px;
+}
+.currency-form {
+    margin-top: 3%;
+    text-align: center; 
+}
+.input-currency {
+    border-radius: 12px;
+    padding: 12px 24px;
+    border: 2px white;
+    box-shadow: 4px white;
+}
+.text-currency {
+    margin-top: 2%;
+    text-align: center;
+}
+#result {
+    text-align: center;
+    margin-top: 2%;
+}

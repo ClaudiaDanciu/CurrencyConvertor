@@ -1,0 +1,21 @@
+﻿@page
+@model CurrencyConvertModel
+@{
+
+    ViewData["Title"] = "Currency Converter";
+
+}
+
+<h1 class="display-4"> Welcome to our Currency Convertor Calculator!</h1>
+
+<form method="post" class="currency-form">
+    <p class="currency"> Please enter the amount in GBP </p>
+
+    <input class="input-currency" name="amount" />
+    <p class="text-currency"> Convert GBP to EUR </p>
+    <input class="submit" type="submit" name="Send" />
+</form>
+
+<div id="result">
+    <p class="result-currency">The amount of @this.Model.amount Pounds that you exchange today is equal to @this.Model.currency of Euros</p>
+</div>
