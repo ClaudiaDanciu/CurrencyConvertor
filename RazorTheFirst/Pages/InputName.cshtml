@@ -1,0 +1,21 @@
+﻿@page
+@model RazorTheFirst.Pages.InputNameModel
+@{
+
+    ViewData["Title"] = "Input Name";
+
+}
+
+<h1 class="display-4" style="text-align:center"> Welcome to our website!</h1>
+
+<form method="post" class="currency-form">
+    <p class="currency"> Please enter your name </p>
+
+    <input class="input-currency" name="amount" />
+    <p class="text-currency"> Please check if your name was typed correctly </p>
+    <input class="submit" type="submit" name="Send" />
+</form>
+
+<div id="result">
+    <p class="result-currency">Your name is @this.Model.name. Welcome! </p>
+</div>
